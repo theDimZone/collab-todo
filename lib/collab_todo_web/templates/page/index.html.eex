@@ -1,0 +1,35 @@
+<br>
+<div class="container" style="word-break: break-word;">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-3">
+      <h1>Collaborative todo list</h1>
+    </div>
+    <div class="col-1"><div class="vr" style="height: 150px;"></div></div>
+    <div class="col-6" id="join-form">
+      <div class="mb-3 row">
+        <label for="roomname" class="col-sm-3 col-form-label">Room name</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="roomname">
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <div class="col-12">
+          <button class="btn btn-primary" id="join">Join</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-6" id="joined" style="display: none;">
+      <h2 id="joined-roomname">Romm</h2>
+    </div>
+  </div>
+
+  <div class="row justify-content-center" id='todo' style="display: none;">
+    <hr>
+    <div class="col-6">
+      <div id="tasks">
+
+      </div>
+      <input id="new-task" type="text" class="form-control" placeholder="New task...">
+    </div>
+  </div>
+</div>
